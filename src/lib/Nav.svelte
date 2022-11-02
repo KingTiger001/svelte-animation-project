@@ -1,3 +1,4 @@
+
 <script lang="ts">
   import { page } from '$app/stores'
   import Logo from './Logo.svelte'
@@ -219,4 +220,5 @@
     /* cover stray pixel at bottom */
     @apply translate-y-px;
   }
+  
 </style>

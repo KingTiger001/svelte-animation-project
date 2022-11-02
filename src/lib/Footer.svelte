@@ -3,6 +3,7 @@
   import { items } from '$lib/menu'
 </script>
 
+
 <ul aria-label="Menu items">
   {#each items as item}
     {@const itemURL = new URL(item.href, $page.url.origin)}
