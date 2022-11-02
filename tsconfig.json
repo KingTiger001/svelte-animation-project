@@ -1,0 +1,18 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+
+  "compilerOptions": {
+    "paths": {
+      "$css/*": ["src/css/*"],
+      "$fonts/*": ["src/fonts/*"],
+      "$lib": ["src/lib"],
+      "$lib/*": ["src/lib/*"],
+      "$static/*": ["static/*"]
+    }
+  },
+
+  "exclude": [
+    // these are transpiled into the static directory during build
+    "src/static/**/*.*"
+  ]
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply font-open-sans font-bold text-center no-underline;
+    line-height: 28px;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    @screen md {
+      padding: 0.5rem 1rem;
+      width: initial;
+    }
+  }
+  .btn:hover {
+    @apply text-white bg-yellow-dark border-yellow-dark;
+  }
+  .btn-primary {
+    @apply text-white bg-dark;
+    @apply border border-dark;
+  }
+  .btn-secondary {
+    @apply border border-dark;
+  }
+}

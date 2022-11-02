@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+
+# auto-generated (and minified)
+/static/images/**/*.svg
+/static/js/**/*
