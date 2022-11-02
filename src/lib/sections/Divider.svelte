@@ -10,7 +10,14 @@
 
 <style lang="postcss">
 
-  
+  div {
+    background-image: linear-gradient(
+      rgb(var(--color-yellow-rgb)) 0%,
+      rgb(var(--color-yellow-rgb)) 50%,
+      rgb(var(--color-green-light-rgb)) 50%,
+      rgb(var(--color-green-light-rgb)) 100%
+    );
+  }
   p {
     @apply mx-5 px-8 py-4 rounded-2xl font-bold text-yellow bg-dark-level1;
     height: 100%;
