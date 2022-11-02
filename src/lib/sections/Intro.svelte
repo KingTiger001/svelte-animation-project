@@ -13,7 +13,6 @@
       />
       <img src="/images/intro/pipe.svg" alt="" width="91" height="31" aria-hidden="true" />
     </div>
-
     <div class="main">
       <span>
         <img
@@ -25,24 +24,19 @@
       </span>
     </div>
   </aside>
-
   <div>
     <h1>The better way to manage your energy choices</h1>
-
     <p>
       Turn the tables on energy deregulation! Our patented technology finds the best energy prices
       in the retail market for homes and small businesses, guaranteeing you the lowest possible
       rate, always.
     </p>
-
     <p>
       We automatically switch you to new providers as needed to keep your bill at the minimum. See
       the cost of your energy usage in advance, manage and pay your bill through us, and never
       signup for an energy company again.
     </p>
-
     <a class="btn btn-primary" href={GET_STARTED_HREF} rel="external">Get started</a>
-
     <p>US PATENT #10,073,426 • #10,816,948 • #11,429,075 • more pending</p>
   </div>
 </div>

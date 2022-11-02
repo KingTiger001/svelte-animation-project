@@ -1,12 +1,15 @@
 <div>
+
   <p>
     Acting as your agent, EnergyBill represents you, the consumer. We are not a utility company. Our
     aim is to provide an independent, consumer friendly and simplified process for complete energy
     bill management.
   </p>
+
 </div>
 
 <style lang="postcss">
+
   div {
     background-image: linear-gradient(
       rgb(var(--color-yellow-rgb)) 0%,
@@ -38,4 +41,5 @@
       line-height: 30px;
     }
   }
+  
 </style>
