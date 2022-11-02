@@ -6,10 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark: 'rgb(39, 37, 46)',
-        'dark-level1': 'rgb(52, 50, 59)',
-        'dark-level2': 'rgb(58, 56, 66)',
-        yellow: 'rgb(230, 178, 9)',
+       
         'yellow-dark': 'rgb(99, 71, 0)',
         blue: 'rgb(32, 165, 214)',
         green: 'rgb(137, 176, 39)',
