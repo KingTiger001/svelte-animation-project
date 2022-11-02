@@ -8,13 +8,7 @@
   <img src="/images/intro/pipe.svg" alt="" width="91" height="31" aria-hidden="true" />
 </div>
 
-<div class="firefly">
-  <img
-    src="/images/intro/main.svg"
-    alt="Firefly lit from spotlight underneath"
-    width="2850"
-    height="1664"
-  />
+
 </div>
 
 <style lang="postcss">
